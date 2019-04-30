@@ -37,6 +37,12 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'simple_form'
 
+gem "geocoder" 
+#google geocoding service - uses an API key
+
+gem "figaro"
+#allows us to use geocoder without telling everyone our API key
+
 gem 'will_paginate', '~> 3.1.0'
 
 # Reduces boot times through caching; required in config/boot.rb
