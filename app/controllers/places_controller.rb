@@ -33,6 +33,10 @@ class PlacesController < ApplicationController
     end
   end
 
+  def add_a_photo
+    @place = Place.find(params[:id])
+  end
+
   def update
     @place = Place.find(params[:id])
     if @place.user != current_user
