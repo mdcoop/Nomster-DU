@@ -45,6 +45,8 @@ gem "figaro"
 
 gem 'carrierwave', '~> 1.0'
 
+gem "fog-aws"
+
 gem 'will_paginate', '~> 3.1.0'
 
 # Reduces boot times through caching; required in config/boot.rb
